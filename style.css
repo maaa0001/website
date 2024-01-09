@@ -63,6 +63,7 @@ h1 {
 
 h2 {
   font-size: 4rem;
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -199,6 +200,7 @@ footer p {
 @media (min-width: 800px) {
   .parent {
     display: grid;
+    margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
