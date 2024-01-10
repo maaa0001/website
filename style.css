@@ -49,6 +49,12 @@ nav a {
 }
 
 /*************** Generetlt *********************/
+.krop {
+  max-width: 1000px;
+  margin-inline: auto;
+  margin: auto;
+}
+
 h1,
 h2,
 h3 {
@@ -91,11 +97,6 @@ a {
 }
 a:hover {
   color: #f20000;
-}
-
-.krop {
-  max-width: 1000px;
-  margin-inline: auto;
 }
 
 #blob p {
@@ -199,10 +200,12 @@ footer p {
 
 @media (min-width: 800px) {
   .parent {
+    align-items: start;
+  }
+  .parent {
     display: grid;
-    margin: 0 auto;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
   }
